@@ -22,9 +22,7 @@ public class Keyboard implements KeyListener {
 
     @Override
     public void keyReleased(KeyEvent e) {
-        switch (e.getKeyCode()){
-            case KeyEvent.VK_LEFT: {}
-        }
+
     }
 
     public boolean isHide() {
