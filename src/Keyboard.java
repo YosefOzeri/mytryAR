@@ -14,9 +14,9 @@ public class Keyboard implements KeyListener {
     @Override
     public void keyPressed(KeyEvent e) {
         switch (e.getKeyCode()){
-            case KeyEvent.VK_LEFT: {System.out.println("left"); this.hide=true;}
-            case KeyEvent.VK_RIGHT: {System.out.println("right"); this.hide=true;}
-            case KeyEvent.VK_SPACE: {System.out.println("space"); this.hide=true;}
+            case KeyEvent.VK_LEFT -> {System.out.println("left"); this.hide=true;}
+            case KeyEvent.VK_RIGHT -> {System.out.println("right"); this.hide=true;}
+            case KeyEvent.VK_SPACE -> {System.out.println("space"); this.hide=true;}
         }
     }
 
