@@ -38,9 +38,10 @@ public class PanelTwo extends JPanel {
         addBallLabel();
         addCrown();
 
-        addHighScore("");
+
         this.score = new Score();
         this.score.writeScore();
+        addHighScore(this.score.addScore());
 
         this.setOpaque(true);
         this.setVisible(true);

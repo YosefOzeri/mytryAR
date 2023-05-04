@@ -9,8 +9,7 @@ public class Score {
         this.file = new File("score.txt");
         this.score="";
         writeScore();
-        //getScore();
-
+        getScore();
     }
 
     public void getScore(){
@@ -19,23 +18,26 @@ public class Score {
             while(reader.hasNextLine()){
                 String data = reader.nextLine();
                 this.score = data;
-                reader.close();
+                //reader.close();
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
     }
-
     public void writeScore(){
         try {
             FileWriter fileWriter = new FileWriter(this.file);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-            String data = "0";
+            String data = "0"; //TODO: we should swap this "0" with the actual score of the player.
             bufferedWriter.write(data);
+            bufferedWriter.close();
 
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+    public String addScore(){
+        return this.score;
     }
 
 }
