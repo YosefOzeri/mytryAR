@@ -2,14 +2,16 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Score {
-    private String score;
+    private int score;
+    private String scoreToString;
     private File file;
 
     public Score(){
         this.file = new File("score.txt");
-        this.score="";
-        writeScore();
+        this.scoreToString = String.valueOf(this.score) ;
         getScore();
+        writeScore();
+
     }
 
     public void getScore(){
@@ -17,7 +19,7 @@ public class Score {
             Scanner reader = new Scanner(this.file);
             while(reader.hasNextLine()){
                 String data = reader.nextLine();
-                this.score = data;
+                this.scoreToString = data;
                 //reader.close();
             }
         } catch (FileNotFoundException e) {
@@ -28,7 +30,7 @@ public class Score {
         try {
             FileWriter fileWriter = new FileWriter(this.file);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-            String data = "0"; //TODO: we should swap this "0" with the actual score of the player.
+            String data = scoreToString; //TODO: we should swap this "0" with the actual score of the player.
             bufferedWriter.write(data);
             bufferedWriter.close();
 
@@ -37,7 +39,7 @@ public class Score {
         }
     }
     public String addScore(){
-        return this.score;
+        return this.scoreToString;
     }
 
 }
