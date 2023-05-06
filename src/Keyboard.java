@@ -8,7 +8,6 @@ public class Keyboard implements KeyListener {
 
     @Override
     public void keyTyped(KeyEvent e) {
-
     }
 
     @Override
@@ -22,7 +21,6 @@ public class Keyboard implements KeyListener {
 
     @Override
     public void keyReleased(KeyEvent e) {
-
     }
 
     public boolean isHide() {

@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="058cec18-c7c1-4d14-ab83-d950cdd356d0" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/images/instructions/leftPressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/instructions/leftUnPressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/instructions/rightPressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/instructions/rightUnPressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/instructions/spacePressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/instructions/spaceUnPressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/ballBlastDuringGame.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/ballBlastIntro.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/ballBlastTransition.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PanelOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PanelOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683052723977</updated>
       <workItem from="1683052725416" duration="7886000" />
-      <workItem from="1683178494702" duration="33724000" />
+      <workItem from="1683178494702" duration="36062000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1683189451420</created>
@@ -137,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683223545712</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1683232054841</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683232054841</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

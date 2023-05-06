@@ -63,7 +63,6 @@ public class PanelOne extends JPanel {
             }
         }).start();
     }
-
     public void playMusic(){
         new Thread(()->{
             while(true){
@@ -71,7 +70,6 @@ public class PanelOne extends JPanel {
             }
         }).start();
     }
-
     public void checkKeyboardState(){
         new Thread(()->{
             while(this.keepGoing){
@@ -91,7 +89,6 @@ public class PanelOne extends JPanel {
             }
         }).start();
     }
-
     public void paintComponent(Graphics graphics){
         super.paintComponent(graphics);
         try {
