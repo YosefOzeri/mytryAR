@@ -2,13 +2,12 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 public class Keyboard implements KeyListener {
-    private static boolean hide=false;
+    private static boolean hide = false;
     public Keyboard(){
     }
 
     @Override
     public void keyTyped(KeyEvent e) {
-
     }
 
     @Override
@@ -22,7 +21,6 @@ public class Keyboard implements KeyListener {
 
     @Override
     public void keyReleased(KeyEvent e) {
-
     }
 
     public boolean isHide() {
