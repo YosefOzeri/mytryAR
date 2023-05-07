@@ -51,8 +51,9 @@ public class PanelOne extends JPanel {
             while(!sound.isTransitionDone()){
                 this.sound.loop();
             }
+            this.sound.loop();
         }).start();
-        this.sound.loop();
+
     }
 
     public void checkKeyboardState(){
