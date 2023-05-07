@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="058cec18-c7c1-4d14-ab83-d950cdd356d0" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/src/PanelOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PanelOne.java" afterDir="false" />
-    </list>
+    <list default="true" id="058cec18-c7c1-4d14-ab83-d950cdd356d0" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +74,7 @@
       <updated>1683052723977</updated>
       <workItem from="1683052725416" duration="7886000" />
       <workItem from="1683178494702" duration="36062000" />
-      <workItem from="1683407451642" duration="35748000" />
+      <workItem from="1683407451642" duration="36053000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1683189451420</created>
@@ -155,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683452921814</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update">
+      <created>1683453310768</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683453310768</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

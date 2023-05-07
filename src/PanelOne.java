@@ -83,6 +83,11 @@ public class PanelOne extends JPanel {
     public void drawBalls(Graphics2D graphics2D){
         for (Ball ball: balls) {
             ball.render(graphics2D,this.interpolation);
+            try {
+                Thread.sleep(300);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
             ball.move();
         }
     }
